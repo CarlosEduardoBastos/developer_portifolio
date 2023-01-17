@@ -1,16 +1,16 @@
 export const theme = {
   colors: {
-    primaryColor: '#018762',
-    primaryColorHover: '#48A58C',
-    secondaryColor: '#1f1f1f',
-    secondaryColorHover: '#5d5d5d',
-    colorText: '#515151',
+    primaryColor: '#0a0a0a',
+    secondaryColor: '#fbe850',
+    colorSection: '#2e3038',
+    colorLink: '#adadad',
+    colorText: '#9d9d9f',
     white: '#FFFFFF',
-    colorHeader: '#eeeeee',
   },
   fonts: {
     family: {
-      default: "'Nunito', sans-serif",
+      default: "'Inter', sans-serif",
+      secondary: "'Prata', serif"
     },
     sizes: {
       small: '1rem',
