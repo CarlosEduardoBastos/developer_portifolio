@@ -8,9 +8,6 @@ export const GlobalStyles = createGlobalStyle`
       box-sizing: border-box;
     }
     body {
-      font: 400 1rem Nunito, sans-serif;
-    }
-    html {
       font-family: ${theme.fonts.family.default};
     }
     a {
