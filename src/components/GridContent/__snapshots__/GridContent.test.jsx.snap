@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GridContent /> should match snapshot 1`] = `
+<div
+  class="sc-gswNZR cWdAwU"
+>
+  <div
+    class="sc-hLBbgP klxQqr"
+  >
+    <div
+      class="sc-eDvSVe isSCPF"
+    >
+      <h2
+        class="sc-bcXHqe kPGDVh"
+      >
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+      </h2>
+      <p
+        class="sc-dkrFOg fBdHXp"
+      >
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+      </p>
+      <p
+        class="sc-dkrFOg fBdHXp"
+      >
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+      </p>
+    </div>
+    <div
+      class="sc-jSUZER QlcaK"
+    >
+      <p
+        class="sc-dkrFOg fBdHXp"
+      >
+        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+      </p>
+      <p
+        class="sc-dkrFOg fBdHXp"
+      >
+        of letters, as opposed to using 'Content here, content here'
+      </p>
+      <p
+        class="sc-dkrFOg fBdHXp"
+      >
+        making it look like Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by
+      </p>
+      <p
+        class="sc-dkrFOg fBdHXp"
+      >
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
+      </p>
+    </div>
+  </div>
+</div>
+`;
