@@ -9,6 +9,7 @@ export const GlobalStyles = createGlobalStyle`
     }
     body {
       font-family: ${theme.fonts.family.default};
+      background-color: ${theme.colors.primaryColor};
     }
     a {
       text-decoration: none;

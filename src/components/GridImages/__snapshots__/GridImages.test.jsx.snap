@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GridImages /> should 1`] = `
+<div
+  class="sc-pyfCe iTztrg"
+>
+  <div
+    class="sc-gswNZR dWbEfY"
+  >
+    <div
+      class="sc-dkrFOg iYOrEV"
+    >
+      <div
+        class="sc-hLBbgP cwnTdp"
+      >
+        <img
+          class="sc-eDvSVe iSNiqg"
+          src="Spense.png"
+        />
+      </div>
+      <div
+        class="sc-jSUZER cpvjRr"
+      >
+        <h3
+          class="sc-bcXHqe Xcrnh"
+        >
+          Spence.com
+        </h3>
+        <p
+          class="sc-jrcTuL dvtjWg"
+        >
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+        </p>
+      </div>
+    </div>
+    <div
+      class="sc-gKPRtg beBmSr"
+    >
+      <div
+        class="sc-iBYQkv fDOeCM"
+      >
+        <img
+          class="sc-eDvSVe iSNiqg"
+          src="YelpCamp.png"
+        />
+      </div>
+      <div
+        class="sc-ftTHYK bNLvvS"
+      >
+        <h3
+          class="sc-bcXHqe Xcrnh"
+        >
+          YelpCamp.com
+        </h3>
+        <p
+          class="sc-jrcTuL dvtjWg"
+        >
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<GridImages /> should match snapshot 1`] = `
+<div
+  class="sc-pyfCe iTztrg"
+>
+  <div
+    class="sc-gswNZR dWbEfY"
+  >
+    <div
+      class="sc-dkrFOg iYOrEV"
+    >
+      <div
+        class="sc-hLBbgP cwnTdp"
+      >
+        <img
+          class="sc-eDvSVe iSNiqg"
+          src="Spense.png"
+        />
+      </div>
+      <div
+        class="sc-jSUZER cpvjRr"
+      >
+        <h3
+          class="sc-bcXHqe Xcrnh"
+        >
+          Spence.com
+        </h3>
+        <p
+          class="sc-jrcTuL dvtjWg"
+        >
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+        </p>
+      </div>
+    </div>
+    <div
+      class="sc-gKPRtg beBmSr"
+    >
+      <div
+        class="sc-iBYQkv fDOeCM"
+      >
+        <img
+          class="sc-eDvSVe iSNiqg"
+          src="YelpCamp.png"
+        />
+      </div>
+      <div
+        class="sc-ftTHYK bNLvvS"
+      >
+        <h3
+          class="sc-bcXHqe Xcrnh"
+        >
+          YelpCamp.com
+        </h3>
+        <p
+          class="sc-jrcTuL dvtjWg"
+        >
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

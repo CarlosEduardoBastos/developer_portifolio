@@ -7,6 +7,9 @@ const titleSize = {
   medium: (theme) => css`
     font-size: ${theme.fonts.sizes.medium};
   `,
+  xmedium: (theme) => css`
+  font-size: ${theme.fonts.sizes.large};
+`,
   big: (theme) => css`
     font-size: ${theme.fonts.sizes.xxlarge};
     ${mediaFont(theme)}
