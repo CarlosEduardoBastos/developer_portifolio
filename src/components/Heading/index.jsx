@@ -12,5 +12,5 @@ export const Heading = ({ children, as = 'h2', size = 'big' }) => {
 Heading.propTypes = {
   children: P.node.isRequired,
   as: P.oneOf(['h1', 'h2', 'h3', 'h4', 'h5', 'h6']),
-  size: P.oneOf(['small', 'medium', 'big']),
+  size: P.oneOf(['small', 'medium', 'xmedium',  'big']),
 };
