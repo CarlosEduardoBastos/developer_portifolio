@@ -1,4 +1,5 @@
 /* eslint-disable import/no-anonymous-default-export */
+import { Meta, Story } from '@storybook/react/types-6-0';
 import { GridContent } from '.';
 export default {
   title: 'GridContent',
@@ -9,9 +10,9 @@ export default {
   argTypes: {
     children: { type: 'string' },
   },
-};
+}as Meta;
 
-export const Template = (args) => {
+export const Template:Story = (args) => {
   return (
     <div>
       <GridContent {...args} />

@@ -1,5 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
-import { Heading } from '.';
+import { Meta, Story } from '@storybook/react/types-6-0';
+import { Heading, HeadingProps } from '.';
 
 export default {
   title: 'Heading',
@@ -10,9 +11,9 @@ export default {
   argTypes: {
     children: { type: 'string' },
   },
-};
+}as Meta;
 
-export const Template = (args) => {
+export const Template:Story<HeadingProps> = (args) => {
   return (
     <div style={{background: "#000"}}>
       <Heading {...args} />

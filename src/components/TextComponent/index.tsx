@@ -1,14 +1,13 @@
 import * as Styled from './styles';
 
-export type ButtonProps = {
+export type TextComponentProps = {
   children: React.ReactNode;
-};
+}
 
-export const Button = ({children}: ButtonProps) => {
+export const TextComponent = ({children}: TextComponentProps) => {
   return (
     <Styled.Container>
       {children}
     </Styled.Container>
   );
 };
-

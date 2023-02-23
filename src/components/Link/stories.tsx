@@ -1,5 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
-import { Link } from '.';
+import { Meta, Story } from '@storybook/react/types-6-0';
+import { Link, LinkProps } from '.';
 export default {
   title: 'Link',
   component: Link,
@@ -7,9 +8,9 @@ export default {
     text: 'Link',
     href: 'Link',
   }
-};
+}as Meta;
 
-export const Template = (args) => {
+export const Template:Story<LinkProps> = (args) => {
   return (
     <div>
       <Link {...args} />

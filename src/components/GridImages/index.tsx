@@ -2,8 +2,6 @@
 import * as Styled from './styles';
 import {SectionContainer} from '../SectionContainer'
 
-import Spense from "../../Assets/Spense.png";
-import YelpCamp from "../../Assets/YelpCamp.png";
 import { Heading } from '../Heading';
 import { TextComponent } from '../TextComponent';
 
@@ -13,7 +11,7 @@ export const GridImages = () => {
       <Styled.Container>
         <Styled.Spense>
           <Styled.SpenseImageContent>
-            <Styled.Image src={Spense}/>
+            <Styled.Image src="../../../public/Assets/Spense.png"/>
           </Styled.SpenseImageContent>
           <Styled.SpenseText>
             <Heading size='xmedium' as='h3'>Spence.com</Heading>
@@ -26,7 +24,7 @@ export const GridImages = () => {
         </Styled.Spense>
         <Styled.YelpCamp>
           <Styled.YelpCampImageContent>
-            <Styled.Image src={YelpCamp}/>
+            <Styled.Image src="../../../public/Assets/YelpCamp.png"/>
           </Styled.YelpCampImageContent>
           <Styled.YelpCampText>
             <Heading size='xmedium' as='h3'>YelpCamp.com</Heading>

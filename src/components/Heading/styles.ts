@@ -1,32 +1,33 @@
-import styled, { css } from 'styled-components';
+import styled, { css, DefaultTheme } from 'styled-components';
+import { HeadingProps } from '.';
 
 const titleSize = {
-  small: (theme) => css`
+  small: (theme: DefaultTheme) => css`
     font-size: ${theme.fonts.sizes.xsmall};
   `,
-  medium: (theme) => css`
+  medium: (theme: DefaultTheme) => css`
     font-size: ${theme.fonts.sizes.medium};
   `,
-  xmedium: (theme) => css`
+  xmedium: (theme: DefaultTheme) => css`
   font-size: ${theme.fonts.sizes.large};
 `,
-  big: (theme) => css`
+  big: (theme: DefaultTheme) => css`
     font-size: ${theme.fonts.sizes.xxlarge};
     ${mediaFont(theme)}
   `,
 };
 
-const mediaFont = (theme) => css`
+const mediaFont = (theme: DefaultTheme) => css`
   @media (max-width: 1039px) {
     font-size: ${theme.fonts.sizes.large};
   }
 `;
 
-export const Container = styled.h1`
+export const Container = styled.h1<HeadingProps>`
   ${({ theme, size }) => css`
     color: ${theme.colors.white};
     font-weight: bold;
     font-family: ${theme.fonts.family.secondary};
-    ${titleSize[size](theme)}
+    ${size && titleSize[size](theme) }
   `}
 `;

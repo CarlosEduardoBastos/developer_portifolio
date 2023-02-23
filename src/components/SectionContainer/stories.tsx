@@ -1,5 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
-import { SectionContainer } from '.';
+import { Meta, Story } from '@storybook/react/types-6-0';
+import { SectionContainer, SectionContainerProps } from '.';
 export default {
   title: 'SectionContainer',
   component: SectionContainer,
@@ -15,9 +16,9 @@ export default {
       </div>
     ),
   },
-};
+}as Meta;
 
-export const Template = (args) => {
+export const Template:Story<SectionContainerProps> = (args) => {
   return (
     <div>
       <SectionContainer {...args} />

@@ -1,10 +1,10 @@
 import * as Styled from './styles';
 
-export type ButtonProps = {
+export type SectionContainerProps = {
   children: React.ReactNode;
-};
+};  
 
-export const Button = ({children}: ButtonProps) => {
+export const SectionContainer = ({children}: SectionContainerProps) => {
   return (
     <Styled.Container>
       {children}

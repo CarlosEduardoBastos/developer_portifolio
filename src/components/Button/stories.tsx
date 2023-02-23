@@ -1,5 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
-import { Button } from '.';
+import { Meta, Story } from '@storybook/react/types-6-0';
+import { Button, ButtonProps } from '.';
 export default {
   title: 'Button',
   component: Button,
@@ -9,9 +10,9 @@ export default {
   argTypes: {
     children: { type: 'string' },
   },
-};
+}as Meta;
 
-export const Template = (args) => {
+export const Template:Story<ButtonProps> = (args) => {
   return (
     <div>
       <Button {...args} />

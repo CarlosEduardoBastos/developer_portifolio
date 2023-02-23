@@ -61,6 +61,7 @@
     "@storybook/testing-library": "^0.0.13",
     "@types/node": "^18.14.0",
     "@types/react": "^18.0.28",
+    "@types/styled-components": "^5.1.26",
     "babel-plugin-named-exports-order": "^0.0.2",
     "jest-styled-components": "^7.0.3",
     "prop-types": "^15.8.1",

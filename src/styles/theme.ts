@@ -29,4 +29,4 @@ export const theme = {
   opacity: {
     default: 0.7,
   },
-};
+} as const;
